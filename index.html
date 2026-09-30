@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>George Alin Giia | Desarrollador Web</title>
+
+    <meta
+        name="description"
+        content="Portfolio de George Alin Giia, estudiante de Desarrollo de Aplicaciones Web."
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                George Alin Giia<span>.</span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#skills">Skills</a>
+                <a href="#contacto">Contacto</a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <button
+                    id="themeButton"
+                    class="icon-button"
+                    aria-label="Cambiar tema"
+                >
+                    ☀
+                </button>
+
+                <button
+                    id="menuButton"
+                    class="menu-button"
+                    aria-label="Abrir menú"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ESTUDIANTE DE DAW
+                </p>
+
+                <h1>
+                    Hola, soy
+                    <span>George Alin Giia</span>
+                </h1>
+
+                <h2>
+                    Desarrollo aplicaciones web
+                    <span class="typing" id="typing"></span>
+                </h2>
+
+                <p class="hero-description">
+                    Soy estudiante de Desarrollo de Aplicaciones Web
+                    apasionado por crear aplicaciones modernas,
+                    funcionales y bien estructuradas.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#proyectos" class="button primary">
+                        Ver proyectos
+                        <span>→</span>
+                    </a>
+
+                    <a href="#contacto" class="button secondary">
+                        Contactar
+                    </a>
+
+                </div>
+
+                <div class="socials">
+
+                    <a
+                        href="https://github.com/GeorgeAlinGiia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/george-alin-giia-503b71224/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+
+                <div class="code-card">
+
+                    <div class="window-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <pre><code>
+<span class="pink">const</span> developer = {
+    name: <span class="green">"George Alin Giia"</span>,
+    studies: <span class="green">"DAW"</span>,
+    skills: [
+        <span class="green">"HTML"</span>,
+        <span class="green">"CSS"</span>,
+        <span class="green">"JavaScript"</span>,
+        <span class="green">"PHP"</span>,
+        <span class="green">"SQL"</span>
+    ],
+    lookingFor: <span class="green">"Prácticas"</span>
+};
+                    </code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE MI ================= -->
+
+        <section id="sobre-mi" class="section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    SOBRE MÍ
+                </p>
+
+                <h2>
+                    Con ganas de convertir
+                    <span>ideas en código.</span>
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p>
+                        Actualmente estudio Desarrollo de Aplicaciones Web
+                        y estoy buscando una empresa donde realizar mis
+                        prácticas profesionales.
+                    </p>
+
+                    <p>
+                        Me interesa especialmente el desarrollo web,
+                        tanto frontend como backend, y disfruto aprendiendo
+                        nuevas tecnologías y resolviendo problemas mediante
+                        código.
+                    </p>
+
+                    <p>
+                        Mi objetivo es incorporarme a un equipo donde pueda
+                        aportar mis conocimientos, aprender de profesionales
+                        y seguir creciendo como desarrollador.
+                    </p>
+
+                    <a
+                        href="GeorgeAlinGiia-Curriculum.pdf"
+                        class="button primary"
+                        download
+                    >
+                        Descargar CV
+                        ↓
+                    </a>
+
+                </div>
+
+
+                <div class="about-stats">
+
+                    <div class="stat">
+                        <strong>DAW</strong>
+                        <span>Formación</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>∞</strong>
+                        <span>Ganas de aprender</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>24/7</strong>
+                        <span>Curiosidad</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>Motivación</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section skills-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    TECNOLOGÍAS
+                </p>
+
+                <h2>
+                    Herramientas con las
+                    <span>que trabajo.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        HTML
+                    </div>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Estructuración semántica de páginas web.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        CSS
+                    </div>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Interfaces responsive y modernas.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        JS
+                    </div>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Interactividad y lógica en el navegador.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        PHP
+                    </div>
+
+                    <h3>PHP</h3>
+
+                    <p>
+                        Desarrollo backend y aplicaciones web.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        SQL
+                    </div>
+
+                    <h3>SQL</h3>
+
+                    <p>
+                        Bases de datos y consultas.
+                    </p>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        GIT
+                    </div>
+
+                    <h3>Git</h3>
+
+                    <p>
+                        Control de versiones y trabajo con repositorios.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROCESO ================= -->
+
+        <section class="section process-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    MI FORMA DE TRABAJAR
+                </p>
+
+                <h2>
+                    De la idea al
+                    <span>resultado.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="process">
+
+                <div class="process-item">
+
+                    <span>01</span>
+
+                    <div>
+                        <h3>Entender</h3>
+
+                        <p>
+                            Analizo el problema y los objetivos
+                            antes de comenzar a programar.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>02</span>
+
+                    <div>
+                        <h3>Planificar</h3>
+
+                        <p>
+                            Organizo la estructura, tecnologías
+                            y funcionalidades necesarias.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>03</span>
+
+                    <div>
+                        <h3>Desarrollar</h3>
+
+                        <p>
+                            Construyo la aplicación utilizando
+                            código limpio y mantenible.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span>04</span>
+
+                    <div>
+                        <h3>Mejorar</h3>
+
+                        <p>
+                            Pruebo, corrijo errores y mejoro
+                            continuamente el resultado.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROYECTOS ================= -->
+
+        <!-- ================= CONTACTO ================= -->
+
+        <section id="contacto" class="section contact-section">
+
+            <div class="contact-box">
+
+                <p class="eyebrow">
+                    CONTACTO
+                </p>
+
+                <h2>
+                    ¿Hablamos?
+                </h2>
+
+                <p>
+                    Estoy buscando una oportunidad para realizar
+                    mis prácticas de DAW y seguir creciendo como
+                    desarrollador.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="mailto:giia.alin.george1811@gmail.com"
+                        class="button primary"
+                    >
+                        Enviarme un email
+                    </a>
+
+                    <a
+                        href="https://github.com/GeorgeAlinGiia"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button secondary"
+                    >
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <a href="#inicio" class="logo">
+                George Alin Giia<span>.</span>
+            </a>
+
+            <p>
+                Diseñado y desarrollado por George Alin Giia.
+            </p>
+
+            <p>
+                © <span id="year"></span>
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
